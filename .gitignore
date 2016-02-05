@@ -1,0 +1,12 @@
+# Build
+/node_modules/
+npm-debug.log
+/es5
+/lib
+*.tgz
+
+# OS
+.DS_Store
+
+# IDE
+/.idea
