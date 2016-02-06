@@ -2,7 +2,7 @@
   "name": "es6-test",
   "version": "0.0.1",
   "bin": {
-    "csp": "es5/bin/app"
+    "app": "es5/bin/app"
   },
   "files": [
     "es5"
