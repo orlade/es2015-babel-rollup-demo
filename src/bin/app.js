@@ -3,4 +3,7 @@
 
 import location from '../core/location'
 
-console.log(`Hello ${location}!`);
+import * as log from 'winston'
+
+log.cli();
+log.info(`Hello ${location}!`);

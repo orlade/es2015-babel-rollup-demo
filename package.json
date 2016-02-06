@@ -11,7 +11,9 @@
     "build": "mkdir -p dist && rollup -c",
     "prepublish": "npm run build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "winston": "^2.1.1"
+  },
   "devDependencies": {
     "babel-preset-es2015-rollup": "^1.1.1",
     "rollup": "^0.25.2",
