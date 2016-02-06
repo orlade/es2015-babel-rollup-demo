@@ -1,1 +1,3 @@
-export default location = "World";
+const location = "World";
+
+export default location;

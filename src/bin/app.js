@@ -1,6 +1,6 @@
-#!/usr/bin/env node
+// #!/usr/env/bin node is injected by Rollup (config.banner).
 'use strict';
 
 import location from '../core/location'
 
-console.log('Hello', location);
+console.log(`Hello ${location}!`);
